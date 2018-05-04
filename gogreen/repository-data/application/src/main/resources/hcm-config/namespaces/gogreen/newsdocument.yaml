@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: d06a2651-e19f-4ed3-9c23-e728607a3f20
+          jcr:uuid: 20fc9e40-733f-4bd2-a407-077f0d95476d
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
@@ -56,14 +56,6 @@ definitions:
             hipposysedit:path: gogreen:image
             hipposysedit:primary: false
             hipposysedit:type: hippogallerypicker:imagelink
-          /author:
-            jcr:primaryType: hipposysedit:field
-            hipposysedit:mandatory: false
-            hipposysedit:multiple: false
-            hipposysedit:ordered: false
-            hipposysedit:path: gogreen:author
-            hipposysedit:primary: false
-            hipposysedit:type: String
           /source:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -88,12 +80,28 @@ definitions:
             hipposysedit:path: gogreen:relatednews
             hipposysedit:primary: false
             hipposysedit:type: hippo:mirror
+          /mirror:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:mirror
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
+          /autor:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:author
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 9b5484ec-1274-453b-9a7a-f23a3e58219c
+          jcr:uuid: aff0e9b9-3edb-48f8-8788-09ecbc59bfe9
           gogreen:date: 0001-01-01T13:00:00+01:00
           gogreen:documenttype: news
           gogreen:introduction: ''
@@ -109,7 +117,6 @@ definitions:
           hippotranslation:locale: document-type-locale
           gogreen:location: ''
           gogreen:source: ''
-          gogreen:author: ''
           /gogreen:content:
             jcr:primaryType: hippostd:html
             hippostd:content: ''
@@ -120,6 +127,12 @@ definitions:
             hippo:modes: []
             hippo:values: []
           /gogreen:relatednews:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:author:
             jcr:primaryType: hippo:mirror
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
       /editor:templates:
@@ -176,8 +189,10 @@ definitions:
               jcr:primaryType: frontend:pluginconfig
           /author:
             jcr:primaryType: frontend:plugin
-            field: author
-            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            caption: Author
+            field: autor
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
@@ -188,6 +203,14 @@ definitions:
             wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+          /relatednews:
+            jcr:primaryType: frontend:plugin
+            caption: Related News
+            field: relatednews
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
           /location:
             jcr:primaryType: frontend:plugin
             field: location
@@ -195,18 +218,18 @@ definitions:
             wicket.id: ${cluster.id}.right.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+          /mirror:
+            jcr:primaryType: frontend:plugin
+            caption: mirror
+            field: mirror
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.left.item
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
           /image:
             jcr:primaryType: frontend:plugin
             field: image
             plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
             wicket.id: ${cluster.id}.right.item
-            /cluster.options:
-              jcr:primaryType: frontend:pluginconfig
-          /relatednews:
-            jcr:primaryType: frontend:plugin
-            caption: Related News
-            field: relatednews
-            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
-            wicket.id: ${cluster.id}.left.item
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig

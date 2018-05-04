@@ -14,6 +14,8 @@
         </div>
       </#if>
       <h2>${document.title?html}</h2>
+      <p> Author name: ${document.author.name} </p>
+      <p> Author email: ${document.author.email} </p>
       <div class="blog-post-body">
         <p>${document.introduction?html}</p>
         <@hst.html hippohtml=document.content/>

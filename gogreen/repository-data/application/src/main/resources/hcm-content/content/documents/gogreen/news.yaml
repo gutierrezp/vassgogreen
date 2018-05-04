@@ -47,9 +47,9 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-02-14T14:40:03.841-08:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T15:19:39.477+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-02-14T14:40:05.215-08:00
+          hippostdpubwf:publicationDate: 2018-05-01T15:19:43.180+01:00
           hippotranslation:id: 3840a682-d27c-4133-84bd-75de9fa861d3
           hippotranslation:locale: en
           /gogreen:content:
@@ -93,6 +93,15 @@
           /gogreen:relatednews[2]:
             jcr:primaryType: hippo:mirror
             hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: b770d26a-eb0f-4339-a05b-a62467b84c77
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:autor:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
         /the-medusa-news[2]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
@@ -114,7 +123,7 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-02-14T14:40:03.841-08:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T15:19:39.477+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 3840a682-d27c-4133-84bd-75de9fa861d3
           hippotranslation:locale: en
@@ -159,6 +168,15 @@
           /gogreen:relatednews[2]:
             jcr:primaryType: hippo:mirror
             hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: b770d26a-eb0f-4339-a05b-a62467b84c77
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:autor:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
         /the-medusa-news[3]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
@@ -180,7 +198,7 @@
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-02-14T14:39:52.491-08:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T15:18:28.546+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 3840a682-d27c-4133-84bd-75de9fa861d3
           hippotranslation:locale: en
@@ -225,6 +243,15 @@
           /gogreen:relatednews[2]:
             jcr:primaryType: hippo:mirror
             hippo:docbase: aeda2bcd-b21d-4ead-a2e6-c64a2ca051c8
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: b770d26a-eb0f-4339-a05b-a62467b84c77
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:autor:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
       /2013-harvest:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -252,9 +279,9 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:59.640+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:publicationDate: 2018-05-01T12:02:01.797+01:00
           hippotranslation:id: e00501c8-6480-4591-bf55-fb8770924d55
           hippotranslation:locale: en
           /gogreen:content:
@@ -292,6 +319,12 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
         /2013-harvest[2]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
@@ -313,7 +346,7 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:59.640+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: e00501c8-6480-4591-bf55-fb8770924d55
           hippotranslation:locale: en
@@ -352,6 +385,12 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
         /2013-harvest[3]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
@@ -373,7 +412,7 @@
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-02-14T14:06:11.703-08:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:40.611+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: e00501c8-6480-4591-bf55-fb8770924d55
           hippotranslation:locale: en
@@ -412,6 +451,12 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
       /the-gastropoda-news:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
@@ -439,9 +484,9 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T12:52:00+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:51.904+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T12:52:00+01:00
+          hippostdpubwf:publicationDate: 2018-05-01T12:01:56.613+01:00
           hippotranslation:id: 9840af10-633b-4881-9505-6e9454bd8f13
           hippotranslation:locale: en
           /gogreen:content:
@@ -479,6 +524,12 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
         /the-gastropoda-news[2]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
@@ -500,7 +551,7 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T12:52:00+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:51.904+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 9840af10-633b-4881-9505-6e9454bd8f13
           hippotranslation:locale: en
@@ -539,6 +590,12 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
         /the-gastropoda-news[3]:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
@@ -560,7 +617,7 @@
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-02-14T14:06:15.627-08:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:46.864+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 9840af10-633b-4881-9505-6e9454bd8f13
           hippotranslation:locale: en
@@ -599,3 +656,174 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /the-amazing-razvan:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 597feea6-4fcd-4740-ad9e-ab693026eeba
+        hippo:name: The amazing Razvan
+        /the-amazing-razvan[1]:
+          jcr:primaryType: gogreen:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: a12ebb2e-f141-4367-99d3-f976caabf703
+          gogreen:date: 2018-05-01T16:04:00+01:00
+          gogreen:documenttype: news
+          gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Maecenas auctor, tortor suscipit molestie ullamcorper
+          gogreen:location: ''
+          gogreen:source: ''
+          gogreen:title: The amazing Razvan
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T16:02:37.889+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+              cubilia Curae; Maecenas auctor, tortor suscipit molestie ullamcorper,
+              velit magna euismod enim, nec maximus magna dui nec odio. Ut imperdiet
+              mattis urna vitae gravida. Pellentesque habitant morbi tristique senectus
+              et netus et malesuada fames ac turpis egestas. Nulla ut tincidunt ipsum,
+              id cursus ex. Aliquam malesuada ante eu tortor tempus convallis. Aenean
+              vulputate viverra ipsum, eget ultrices sem iaculis non. Praesent suscipit
+              ligula mattis, euismod sapien feugiat, malesuada dui. Vivamus lacinia
+              enim eu scelerisque suscipit.</p>
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /gogreen:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /the-amazing-razvan[2]:
+          jcr:primaryType: gogreen:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: d17ea200-2690-4563-ae69-5ec1377ab460
+          gogreen:date: 2018-05-01T16:04:00+01:00
+          gogreen:documenttype: news
+          gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Maecenas auctor, tortor suscipit molestie ullamcorper
+          gogreen:location: ''
+          gogreen:source: ''
+          gogreen:title: The amazing Razvan
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T16:05:06.450+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+              cubilia Curae; Maecenas auctor, tortor suscipit molestie ullamcorper,
+              velit magna euismod enim, nec maximus magna dui nec odio. Ut imperdiet
+              mattis urna vitae gravida. Pellentesque habitant morbi tristique senectus
+              et netus et malesuada fames ac turpis egestas. Nulla ut tincidunt ipsum,
+              id cursus ex. Aliquam malesuada ante eu tortor tempus convallis. Aenean
+              vulputate viverra ipsum, eget ultrices sem iaculis non. Praesent suscipit
+              ligula mattis, euismod sapien feugiat, malesuada dui. Vivamus lacinia
+              enim eu scelerisque suscipit.</p>
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /gogreen:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /the-amazing-razvan[3]:
+          jcr:primaryType: gogreen:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: c0cef395-42d7-419c-bd9b-1fe805515128
+          gogreen:date: 2018-05-01T16:04:00+01:00
+          gogreen:documenttype: news
+          gogreen:introduction: Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Maecenas auctor, tortor suscipit molestie ullamcorper
+          gogreen:location: ''
+          gogreen:source: ''
+          gogreen:title: The amazing Razvan
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-01T16:05:06.450+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2018-05-01T16:05:14.388+01:00
+          hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
+          hippotranslation:locale: en
+          /gogreen:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+              cubilia Curae; Maecenas auctor, tortor suscipit molestie ullamcorper,
+              velit magna euismod enim, nec maximus magna dui nec odio. Ut imperdiet
+              mattis urna vitae gravida. Pellentesque habitant morbi tristique senectus
+              et netus et malesuada fames ac turpis egestas. Nulla ut tincidunt ipsum,
+              id cursus ex. Aliquam malesuada ante eu tortor tempus convallis. Aenean
+              vulputate viverra ipsum, eget ultrices sem iaculis non. Praesent suscipit
+              ligula mattis, euismod sapien feugiat, malesuada dui. Vivamus lacinia
+              enim eu scelerisque suscipit.</p>
+          /gogreen:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /gogreen:relatednews[1]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+          /gogreen:mirror:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          /gogreen:author:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+          /gogreen:relatednews[2]:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

@@ -12,6 +12,7 @@
   <name>GoGreen CMS</name>
   <description>GoGreen CMS</description>
   <dependencies>
+
     <dependency>
       <groupId>org.onehippo.cms7.hst.dependencies</groupId>
       <artifactId>hst-repository-dependencies</artifactId>
@@ -61,6 +62,9 @@
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-plugin-selections-addon-repository</artifactId>
     </dependency>
+
+
+
   </dependencies>
   <build>
     <finalName>cms</finalName>

@@ -1,0 +1,327 @@
+/content/documents/gogreen/authors:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 4e8d9a44-554e-4146-a783-9d21756f757b
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 4882d86f-c834-4d76-a12d-891b1d826ab1
+  hippotranslation:locale: en
+  /author1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: b770d26a-eb0f-4339-a05b-a62467b84c77
+    /author1[1]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d1d558ff-ae8b-428f-baa3-dfe43b6e7baa
+      gogreen:email: ignacio@gmail.com
+      gogreen:name: Ignacio
+      gogreen:phoneNumber: '09393723'
+      gogreen:website: www.mywebsite.com
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-04-30T14:25:01.312+01:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T14:25:01.312+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c8a74200-fab6-45bd-ae9b-bf33dee4e12b
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: fondo.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author1/author1[1]/image/fondo.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-04-30T14:25:28.375+01:00
+        jcr:mimeType: image/jpeg
+    /author1[2]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: aa349946-0297-4b0c-b881-96529294ffb3
+      gogreen:email: ignacio@gmail.com
+      gogreen:name: Ignacio
+      gogreen:phoneNumber: '09393723'
+      gogreen:website: www.mywebsite.com
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-04-30T14:25:01.312+01:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T15:07:59.298+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c8a74200-fab6-45bd-ae9b-bf33dee4e12b
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: fondo.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author1/author1[2]/image/fondo.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-04-30T14:25:28.375+01:00
+        jcr:mimeType: image/jpeg
+    /author1[3]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c28cfee3-b1f8-4ee6-b2e2-9132c67c9ab0
+      gogreen:email: ignacio@gmail.com
+      gogreen:name: Ignacio
+      gogreen:phoneNumber: '09393723'
+      gogreen:website: www.mywebsite.com
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-04-30T14:25:01.312+01:00
+      hippostdpubwf:lastModificationDate: 2018-04-30T15:07:59.298+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-04-30T15:08:03.292+01:00
+      hippotranslation:id: c8a74200-fab6-45bd-ae9b-bf33dee4e12b
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: fondo.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author1/author1[3]/image/fondo.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-04-30T14:25:28.375+01:00
+        jcr:mimeType: image/jpeg
+  /author2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: c7d0510d-ef47-4fd1-91ab-0fa9d1979fed
+    /author2[1]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1eeb174d-027a-42ed-8a3c-c356501bb57e
+      gogreen:email: donrazvan@gmail.com
+      gogreen:name: Don Razvan
+      gogreen:phoneNumber: '999865412'
+      gogreen:website: www.razvan.com
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T12:00:23.834+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T12:00:23.834+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 98828adb-67c2-48ea-b94d-84d2c2c0f3a3
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: london.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author2/author2[1]/image/london.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-05-01T12:01:03.734+01:00
+        jcr:mimeType: image/jpeg
+    /author2[2]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 8ecdcc4a-b054-48fb-af4f-5dfd2e48ec7f
+      gogreen:email: donrazvan@gmail.com
+      gogreen:name: Don Razvan
+      gogreen:phoneNumber: '999865412'
+      gogreen:website: www.razvan.com
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T12:00:23.834+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T12:01:18.935+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 98828adb-67c2-48ea-b94d-84d2c2c0f3a3
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: london.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author2/author2[2]/image/london.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-05-01T12:01:03.734+01:00
+        jcr:mimeType: image/jpeg
+    /author2[3]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 908e8b26-52a7-43db-9ad9-bd96c7e483d0
+      gogreen:email: donrazvan@gmail.com
+      gogreen:name: Don Razvan
+      gogreen:phoneNumber: '999865412'
+      gogreen:website: www.razvan.com
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T12:00:23.834+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T12:01:18.935+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-01T12:01:22.931+01:00
+      hippotranslation:id: 98828adb-67c2-48ea-b94d-84d2c2c0f3a3
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: london.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author2/author2[3]/image/london.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-05-01T12:01:03.734+01:00
+        jcr:mimeType: image/jpeg
+  /author3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 160343c2-30c2-46be-ba6d-58ab240d67c9
+    /author3[1]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: beadb2f8-3480-47a9-8960-b841b35f2711
+      gogreen:email: jorge@gmail.com
+      gogreen:name: Jorge
+      gogreen:phoneNumber: '789654123'
+      gogreen:website: www.google.es
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T15:48:28.727+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T15:48:28.727+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 45221e92-5dc4-4936-a5f1-65dfe8aa39d8
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: beer.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author3/author3[1]/image/beer.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-05-01T15:48:40.045+01:00
+        jcr:mimeType: image/jpeg
+    /author3[2]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 729d397f-60ca-42c9-a395-954c753beb6d
+      gogreen:email: jorge@gmail.com
+      gogreen:name: Jorge
+      gogreen:phoneNumber: '789654123'
+      gogreen:website: www.google.es
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T15:48:28.727+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T15:49:17.152+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 45221e92-5dc4-4936-a5f1-65dfe8aa39d8
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: beer.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author3/author3[2]/image/beer.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-05-01T15:48:40.045+01:00
+        jcr:mimeType: image/jpeg
+    /author3[3]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1da5baa8-29db-4fd7-ac32-253b04cb22c6
+      gogreen:email: jorge@gmail.com
+      gogreen:name: Jorge
+      gogreen:phoneNumber: '789654123'
+      gogreen:website: www.google.es
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-01T15:48:28.727+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-01T15:49:17.152+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-03T10:28:53.218+01:00
+      hippotranslation:id: 45221e92-5dc4-4936-a5f1-65dfe8aa39d8
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: beer.jpg
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author3/author3[3]/image/beer.jpg
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2018-05-01T15:48:40.045+01:00
+        jcr:mimeType: image/jpeg
+  /author4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: eadd4b2d-4a3c-47ac-b3cd-fc25adc45245
+    /author4[1]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 49eaaa7a-30ae-485d-8ebc-495e340b9782
+      gogreen:email: JohnCena@outlook.com
+      gogreen:name: John
+      gogreen:phoneNumber: ''
+      gogreen:website: ''
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-03T10:35:00.978+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-03T10:35:00.978+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e088cc99-5ddd-4428-9f62-8316ac5ec9ee
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author4/author4[1]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
+    /author4[2]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 306ca5b5-f19c-4e0a-a1bb-b3fca7933ae2
+      gogreen:email: JohnCena@outlook.com
+      gogreen:name: John
+      gogreen:phoneNumber: ''
+      gogreen:website: ''
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-03T10:35:00.978+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-03T10:35:36.250+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e088cc99-5ddd-4428-9f62-8316ac5ec9ee
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author4/author4[2]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
+    /author4[3]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 95b410c5-1e1d-4fda-82f7-8bbbfd7a65ab
+      gogreen:email: JohnCena@outlook.com
+      gogreen:name: John
+      gogreen:phoneNumber: ''
+      gogreen:website: ''
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-03T10:35:00.978+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-03T10:35:36.250+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-04T09:50:12.443+01:00
+      hippotranslation:id: e088cc99-5ddd-4428-9f62-8316ac5ec9ee
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author4/author4[3]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank

@@ -3,27 +3,33 @@ package org.example.beans;
 import java.util.Calendar;
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
-import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
 import org.example.beans.Imageset;
 import java.util.List;
+
+import javax.ws.rs.GET;
+
 import org.hippoecm.hst.content.beans.standard.HippoBean;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @HippoEssentialsGenerated(internalName = "gogreen:newsdocument")
 @Node(jcrType = "gogreen:newsdocument")
 public class NewsDocument extends HippoDocument {
+	
+	private static Logger log = LoggerFactory.getLogger(NewsDocument.class);
+	
+	
     /** 
      * The document type of the news document.
      */
     public final static String DOCUMENT_TYPE = "gogreen:newsdocument";
     private final static String TITLE = "gogreen:title";
-    private final static String DATE = "gogreen:date";
+    private final static String DATE = "gogreen:date";    
     private final static String INTRODUCTION = "gogreen:introduction";
-    private final static String IMAGE = "gogreen:image";
     private final static String CONTENT = "gogreen:content";
     private final static String LOCATION = "gogreen:location";
-    private final static String AUTHOR = "gogreen:author";
     private final static String SOURCE = "gogreen:source";
 
     /** 
@@ -76,10 +82,10 @@ public class NewsDocument extends HippoDocument {
      * @return the author
      */
     @HippoEssentialsGenerated(internalName = "gogreen:author")
-    public String getAuthor() {
-        return getProperty(AUTHOR);
-    }
-
+    public HippoBean getAuthor() {
+    	return getLinkedBean("gogreen:author", HippoBean.class);
+    }        
+    
     /** 
      * Get the source of the document.
      * @return the source
