@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: a7922ee6-fce6-4f16-8d97-13a1dc98de1e
+          jcr:uuid: a4742047-685a-432d-824b-b073bcf94730
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
@@ -32,7 +32,7 @@ definitions:
             hipposysedit:path: gogreen:email
             hipposysedit:primary: false
             hipposysedit:type: String
-            hipposysedit:validators: [non-empty, required, email]
+            hipposysedit:validators: [non-empty, required, email, unique-email]
           /image:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -72,7 +72,7 @@ definitions:
           gogreen:email: ''
           gogreen:website: ''
           gogreen:phoneNumber: ''
-          jcr:uuid: 933abd17-dca0-4e02-9a3f-6feb3e7f33a5
+          jcr:uuid: 895ec27c-7a38-4df4-a357-554c7939b9ec
           hippostdpubwf:lastModificationDate: 2018-04-30T14:14:50.680+01:00
           hippostdpubwf:creationDate: 2018-04-30T14:14:50.680+01:00
           /gogreen:image:
@@ -110,6 +110,7 @@ definitions:
             field: email
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
+            hint: ''
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
           /image:

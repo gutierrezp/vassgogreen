@@ -47,3 +47,6 @@ definitions:
       width: 1070
       compression: 1.0
       optimize: quality
+    /hippo:configuration/hippo:frontend/cms/cms-validators/unique-email:
+      jcr:primaryType: frontend:plugin
+      plugin.class: org.example.validators.UniqueEmailValidator

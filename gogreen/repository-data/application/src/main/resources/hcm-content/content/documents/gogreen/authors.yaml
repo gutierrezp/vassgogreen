@@ -325,3 +325,57 @@
         jcr:encoding: UTF-8
         jcr:lastModified: 2008-03-26T12:03:00+01:00
         jcr:mimeType: application/vnd.hippo.blank
+  /test:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 443d6647-340a-48be-947a-e893014aa2a6
+    /test[1]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 332949ea-a0a0-4c1e-9bd2-3d2475463f8c
+      gogreen:email: www@gmail.com
+      gogreen:name: www
+      gogreen:phoneNumber: ''
+      gogreen:website: ''
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-09T12:08:01.950+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-09T12:08:30.959+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f196f6a0-53b5-44db-9e73-f76427182829
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/test/test[1]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
+    /test[2]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bc46c6c2-35fb-4ded-8b0b-9dd6dd72cc31
+      gogreen:email: www@gmail.com
+      gogreen:name: www
+      gogreen:phoneNumber: ''
+      gogreen:website: ''
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-09T12:08:01.950+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-09T12:08:24.344+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f196f6a0-53b5-44db-9e73-f76427182829
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/test/test[2]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
