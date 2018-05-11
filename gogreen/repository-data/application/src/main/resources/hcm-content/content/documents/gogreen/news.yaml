@@ -484,40 +484,19 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:51.904+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-10T12:21:20.018+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-05-01T12:01:56.613+01:00
+          hippostdpubwf:publicationDate: 2018-05-10T12:21:27.329+01:00
           hippotranslation:id: 9840af10-633b-4881-9505-6e9454bd8f13
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <html>
-                        <body>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&nbsp;</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        </body>
-                        </html>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
@@ -551,39 +530,18 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:51.904+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-10T12:21:20.018+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 9840af10-633b-4881-9505-6e9454bd8f13
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <html>
-                        <body>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&nbsp;</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        </body>
-                        </html>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
@@ -617,39 +575,18 @@
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-01T12:01:46.864+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-10T11:36:29.362+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 9840af10-633b-4881-9505-6e9454bd8f13
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <html>
-                        <body>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&nbsp;</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        </body>
-                        </html>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: 3c740fcf-8ec5-4f00-a713-ff96caa645c8
@@ -682,26 +619,17 @@
           gogreen:title: The amazing Razvan
           hippo:availability: []
           hippo:related___pathreference: []
+          hippostd:holder: admin
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-01T16:02:37.889+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-11T16:00:34.054+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-              cubilia Curae; Maecenas auctor, tortor suscipit molestie ullamcorper,
-              velit magna euismod enim, nec maximus magna dui nec odio. Ut imperdiet
-              mattis urna vitae gravida. Pellentesque habitant morbi tristique senectus
-              et netus et malesuada fames ac turpis egestas. Nulla ut tincidunt ipsum,
-              id cursus ex. Aliquam malesuada ante eu tortor tempus convallis. Aenean
-              vulputate viverra ipsum, eget ultrices sem iaculis non. Praesent suscipit
-              ligula mattis, euismod sapien feugiat, malesuada dui. Vivamus lacinia
-              enim eu scelerisque suscipit.</p>
+            hippostd:content: <p>stupid</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -738,23 +666,18 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-01T16:05:06.450+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-11T15:35:18.165+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-              cubilia Curae; Maecenas auctor, tortor suscipit molestie ullamcorper,
-              velit magna euismod enim, nec maximus magna dui nec odio. Ut imperdiet
-              mattis urna vitae gravida. Pellentesque habitant morbi tristique senectus
-              et netus et malesuada fames ac turpis egestas. Nulla ut tincidunt ipsum,
-              id cursus ex. Aliquam malesuada ante eu tortor tempus convallis. Aenean
-              vulputate viverra ipsum, eget ultrices sem iaculis non. Praesent suscipit
-              ligula mattis, euismod sapien feugiat, malesuada dui. Vivamus lacinia
-              enim eu scelerisque suscipit.</p>
+            hippostd:content: |-
+              <p>wwewe<strong>wefwfweaaa</strong></p>
+
+              <p>okokokok</p>
+
+              <p>qqq</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -791,24 +714,19 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-01T16:05:06.450+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-11T11:55:54.700+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-05-01T16:05:14.388+01:00
+          hippostdpubwf:publicationDate: 2018-05-11T11:55:59.864+01:00
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Aliquam lobortis nibh quis ornare varius. Fusce et nulla dui.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-              cubilia Curae; Maecenas auctor, tortor suscipit molestie ullamcorper,
-              velit magna euismod enim, nec maximus magna dui nec odio. Ut imperdiet
-              mattis urna vitae gravida. Pellentesque habitant morbi tristique senectus
-              et netus et malesuada fames ac turpis egestas. Nulla ut tincidunt ipsum,
-              id cursus ex. Aliquam malesuada ante eu tortor tempus convallis. Aenean
-              vulputate viverra ipsum, eget ultrices sem iaculis non. Praesent suscipit
-              ligula mattis, euismod sapien feugiat, malesuada dui. Vivamus lacinia
-              enim eu scelerisque suscipit.</p>
+            hippostd:content: |-
+              <p>wwewe<strong>wefwfweaaa</strong></p>
+
+              <p>okokokok</p>
+
+              <p>&nbsp;</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

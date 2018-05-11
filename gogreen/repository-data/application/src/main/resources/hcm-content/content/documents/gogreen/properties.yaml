@@ -1,0 +1,101 @@
+/content/documents/gogreen/properties:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 7e016b73-b0ed-4ecf-809b-9d25b93f9e42
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 9fc027df-dd9c-4003-bc26-dac87f9ecb6f
+  hippotranslation:locale: en
+  /badwords:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 311dcf1b-d2ea-4ea4-bdb7-8e49b225ed7c
+    /badwords[1]:
+      jcr:primaryType: gogreen:Property
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 731b947c-83d4-47dd-b557-d8ad5c53cb75
+      gogreen:name: badwords
+      gogreen:value: idiot, stupid, faggot, bastard
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-10T16:29:42.832+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-11T11:24:03.690+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6e89f809-e0f1-450f-aa63-f0dd050ea69d
+      hippotranslation:locale: en
+    /badwords[2]:
+      jcr:primaryType: gogreen:Property
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 5f287573-4ed1-47b7-ae96-3c49a37effdd
+      gogreen:name: badwords
+      gogreen:value: idiot, stupid, faggot, bastard
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-10T16:29:42.832+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-11T10:13:00.331+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6e89f809-e0f1-450f-aa63-f0dd050ea69d
+      hippotranslation:locale: en
+    /badwords[3]:
+      jcr:primaryType: gogreen:Property
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 13cd48b7-3378-4f38-9e7d-405bf193ca3d
+      gogreen:name: badwords
+      gogreen:value: idiot, stupid, faggot, bastard
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-10T16:29:42.832+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-11T10:13:00.331+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-11T10:19:40.278+01:00
+      hippotranslation:id: 6e89f809-e0f1-450f-aa63-f0dd050ea69d
+      hippotranslation:locale: en
+  /admin:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 23950e50-2675-4d42-865c-2c82318f8724
+    /admin[1]:
+      jcr:primaryType: gogreen:Property
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1d0f9f4a-b7e0-4a05-bde0-8b3ed3e6e9f7
+      gogreen:name: admin
+      gogreen:value: 23jorgegomez23@gmail.com
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-11T14:23:30.984+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-11T14:23:30.986+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: eaafc8a5-150d-49cf-9585-ac8370d5ab8b
+      hippotranslation:locale: en
+    /admin[2]:
+      jcr:primaryType: gogreen:Property
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: cbd960be-7061-4e7d-a64c-93faf04756ca
+      gogreen:name: admin
+      gogreen:value: 23jorgegomez23@gmail.com
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-11T14:23:30.984+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-11T14:23:44.995+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: eaafc8a5-150d-49cf-9585-ac8370d5ab8b
+      hippotranslation:locale: en
+    /admin[3]:
+      jcr:primaryType: gogreen:Property
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: adfae475-c6cc-4752-aac5-2cb6db21264e
+      gogreen:name: admin
+      gogreen:value: 23jorgegomez23@gmail.com
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-11T14:23:30.984+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-11T14:23:44.995+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-11T14:53:36.640+01:00
+      hippotranslation:id: eaafc8a5-150d-49cf-9585-ac8370d5ab8b
+      hippotranslation:locale: en

@@ -11,6 +11,9 @@
 [gogreen:Author] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[gogreen:Property] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [gogreen:bannerdocument] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 

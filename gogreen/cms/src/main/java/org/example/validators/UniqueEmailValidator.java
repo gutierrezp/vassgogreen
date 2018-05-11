@@ -6,8 +6,7 @@ import java.util.Set;
 
 import javax.jcr.Node;
 import javax.jcr.NodeIterator;
-import javax.jcr.PropertyIterator;
-import javax.jcr.RepositoryException;
+
 import javax.jcr.Session;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryResult;
@@ -45,33 +44,41 @@ public class UniqueEmailValidator extends AbstractCmsValidator {
 			throws ValidationException {
 
 		try {
-			// stores all the emails of the documents
-			ArrayList<String> emails = new ArrayList<>();
 
 			Set<Violation> violations = new HashSet<Violation>();
+			ArrayList<String> emails = new ArrayList<>();
 
-			// gets the value introduced by the admin in the cms
-			String value = (String) childModel.getObject();
+			// get the node and the value introduced by the writer
+			String value = childModel.getObject().toString();
+			log.debug("value: " + value);
 
+			// get session using the node
 			Node n = node.getNode();
-
 			Session session = n.getSession();
 
-			Query q = session.getWorkspace().getQueryManager().createQuery("SELECT * FROM [gogreen:Author] ", Query.JCR_SQL2);
+			// query to get the emails 
+			// it only gets the ones with the property availability in live
+			Query q = session.getWorkspace().getQueryManager().createQuery("SELECT * FROM [gogreen:Author] WHERE [hippo:availability] LIKE 'live'", Query.JCR_SQL2);
 
-			QueryResult r = q.execute();			
-			
-			int cont = 0;
+			QueryResult r = q.execute();
 
 			for (NodeIterator i = r.getNodes(); i.hasNext();) {
 				String email = i.nextNode().getProperty("gogreen:email").getString();
-				if (email.equals(value)) {
-					cont++;
+				// to avoid repeated elements
+				if (!emails.contains(email) && !email.isEmpty()) {
+					emails.add(email);
 				}
 			}
-			
-			if (cont >= 2) {
-				violations.add(fieldValidator.newValueViolation(childModel, getTranslation()));
+
+			for (String email : emails) {
+				log.debug("EMAIL: " + email);
+			}
+
+			// comparation of the email typed and the ones in the documents
+			for (String email : emails) {
+				if (value.equals(email)) {
+					violations.add(fieldValidator.newValueViolation(childModel, getTranslation()));
+				}
 			}
 
 			return violations;
@@ -82,5 +89,7 @@ public class UniqueEmailValidator extends AbstractCmsValidator {
 		}
 
 	}
+	
+	
 
 }
