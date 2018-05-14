@@ -629,7 +629,7 @@
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>hellooowiwi</p>
+            hippostd:content: <p>idiot</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

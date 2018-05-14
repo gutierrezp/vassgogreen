@@ -325,3 +325,83 @@
         jcr:encoding: UTF-8
         jcr:lastModified: 2008-03-26T12:03:00+01:00
         jcr:mimeType: application/vnd.hippo.blank
+  /author5:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 99b38466-a595-4d33-a96d-5de5608dd60e
+    /author5[1]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a7913250-dd1b-4803-b029-02910e13d186
+      gogreen:email: daniel@gmail.com
+      gogreen:name: Daniel
+      gogreen:phoneNumber: ''
+      gogreen:website: www.lavandeira.com
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-14T16:28:46.427+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-14T16:28:46.427+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 258f29c4-7f90-4ed0-b8fa-b6ccf8295d34
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author5/author5[1]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
+    /author5[2]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4cf7731b-6d49-4d42-8015-c720c7beb313
+      gogreen:email: daniel@gmail.com
+      gogreen:name: Daniel
+      gogreen:phoneNumber: ''
+      gogreen:website: www.lavandeira.com
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-14T16:28:46.427+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-14T16:29:30.311+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 258f29c4-7f90-4ed0-b8fa-b6ccf8295d34
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author5/author5[2]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
+    /author5[3]:
+      jcr:primaryType: gogreen:Author
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5d0bd2e1-3659-49c2-a312-bd66b7f184ba
+      gogreen:email: daniel@gmail.com
+      gogreen:name: Daniel
+      gogreen:phoneNumber: ''
+      gogreen:website: www.lavandeira.com
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-14T16:28:46.427+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-14T16:29:30.311+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-14T16:30:54.339+01:00
+      hippotranslation:id: 258f29c4-7f90-4ed0-b8fa-b6ccf8295d34
+      hippotranslation:locale: en
+      /gogreen:image:
+        jcr:primaryType: hippo:resource
+        hippo:filename: hippo:resource
+        jcr:data:
+          type: binary
+          resource: /content/documents/gogreen/authors/author5/author5[3]/image/hippo-resource
+        jcr:encoding: UTF-8
+        jcr:lastModified: 2008-03-26T12:03:00+01:00
+        jcr:mimeType: application/vnd.hippo.blank
