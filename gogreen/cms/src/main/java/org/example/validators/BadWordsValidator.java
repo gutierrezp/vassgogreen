@@ -39,12 +39,10 @@ public class BadWordsValidator extends AbstractCmsValidator {
 
 	@Override
 	public void preValidation(IFieldValidator type) throws ValidationException {
-		// log.debug("Type: " + type.getFieldType().getType());
-		// if (!"Rich Text Editor".equals(type.getFieldType().getType())) {
-		// throw new ValidationException(
-		// "Invalid validation exception; cannot validate non-string field for
-		// emptyness");
-		// }
+		if (!"hippostd:html".equals(type.getFieldType().getType())) {
+			throw new ValidationException(
+					"Invalid validation exception; cannot validate non-string field for emptyness");
+		}
 	}
 
 	@Override
@@ -53,7 +51,6 @@ public class BadWordsValidator extends AbstractCmsValidator {
 		try {
 			// colletions
 			Set<Violation> violations = new HashSet<Violation>();
-			// ArrayList<String> badWords = new ArrayList<>();
 			String[] badWords = null;
 
 			// get the node and the value introduced by the writer
@@ -77,11 +74,11 @@ public class BadWordsValidator extends AbstractCmsValidator {
 
 			for (String s : badWords) {
 				if (value.toLowerCase().contains(s)) {
-					
+
 					String recipient = getRecipient(session);
-					log.debug("recipient: " + recipient);
-					
-					//sendEmail(s, getRecipient(session));
+					sendEmail(s, recipient);
+
+					// sendEmail(s, getRecipient(session));
 					violations.add(fieldValidator.newValueViolation(childModel, getTranslation()));
 				}
 
@@ -99,12 +96,11 @@ public class BadWordsValidator extends AbstractCmsValidator {
 		String recipient = null;
 		try {
 			Query q = s.getWorkspace().getQueryManager().createQuery(
-					"SELECT * FROM [gogreen:Property] WHERE [gogreen:name] LIKE 'admin' AND [gogreen:availability] LIKE 'live'",
+					"SELECT * FROM [gogreen:Property] WHERE [gogreen:name] LIKE 'admin' AND [hippo:availability] LIKE 'live'",
 					Query.JCR_SQL2);
 			QueryResult r = q.execute();
 			for (NodeIterator i = r.getNodes(); i.hasNext();) {
 				recipient = i.nextNode().getProperty("gogreen:value").getString();
-				log.debug("recipient: " + recipient);
 			}
 
 			return recipient;

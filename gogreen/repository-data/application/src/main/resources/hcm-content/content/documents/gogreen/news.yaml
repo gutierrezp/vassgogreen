@@ -623,13 +623,13 @@
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-11T16:00:34.054+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-14T10:11:05.615+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>stupid</p>
+            hippostd:content: <p>hellooowiwi</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -666,18 +666,13 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-11T15:35:18.165+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-14T10:06:09.126+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>wwewe<strong>wefwfweaaa</strong></p>
-
-              <p>okokokok</p>
-
-              <p>qqq</p>
+            hippostd:content: <p>hellooowiwi</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -714,19 +709,14 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-11T11:55:54.700+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-14T09:30:13.045+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-05-11T11:55:59.864+01:00
+          hippostdpubwf:publicationDate: 2018-05-14T09:30:19.976+01:00
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: |-
-              <p>wwewe<strong>wefwfweaaa</strong></p>
-
-              <p>okokokok</p>
-
-              <p>&nbsp;</p>
+            hippostd:content: <p>hola</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
