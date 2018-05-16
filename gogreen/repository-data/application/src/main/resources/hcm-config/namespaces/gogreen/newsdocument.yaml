@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel', 'mix:referenceable']
-          jcr:uuid: 3ed0b8f6-7447-47a8-bb66-ab641c2cdbf9
+          jcr:uuid: acdb9323-2358-4f3d-a234-9f34d2597bef
           hipposysedit:node: true
           hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.onehippo.org/gogreen/nt/1.0
@@ -39,7 +39,6 @@ definitions:
             hipposysedit:path: gogreen:content
             hipposysedit:primary: false
             hipposysedit:type: hippostd:html
-            hipposysedit:validators: [badwords]
           /date:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
@@ -102,7 +101,7 @@ definitions:
         /hipposysedit:prototype:
           jcr:primaryType: gogreen:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 5c9b92eb-45cf-4f31-92c8-df238813aad3
+          jcr:uuid: 5c91e08f-c1c7-49da-9bc9-12a8888c0171
           gogreen:date: 0001-01-01T13:00:00+01:00
           gogreen:documenttype: news
           gogreen:introduction: ''

@@ -48,9 +48,5 @@ definitions:
       compression: 1.0
       optimize: quality
     /hippo:configuration/hippo:frontend/cms/cms-validators/unique-email:
-      .meta:order-before: badwords
       jcr:primaryType: frontend:plugin
       plugin.class: org.example.validators.UniqueEmailValidator
-    /hippo:configuration/hippo:frontend/cms/cms-validators/badwords:
-      jcr:primaryType: frontend:plugin
-      plugin.class: org.example.validators.BadWordsValidator

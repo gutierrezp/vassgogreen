@@ -1,6 +1,5 @@
 package org.example.validators;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,6 +11,7 @@ import javax.jcr.query.Query;
 import javax.jcr.query.QueryResult;
 
 import org.apache.wicket.model.IModel;
+import org.example.utils.QueryUtils;
 import org.hippoecm.frontend.editor.validator.plugins.AbstractCmsValidator;
 import org.hippoecm.frontend.model.JcrNodeModel;
 import org.hippoecm.frontend.plugin.IPluginContext;
@@ -46,7 +46,6 @@ public class UniqueEmailValidator extends AbstractCmsValidator {
 		try {
 
 			Set<Violation> violations = new HashSet<Violation>();
-			ArrayList<String> emails = new ArrayList<>();
 
 			// get the node and the value introduced by the writer
 			String value = childModel.getObject().toString();
@@ -56,30 +55,16 @@ public class UniqueEmailValidator extends AbstractCmsValidator {
 			Node n = node.getNode();
 			Session session = n.getSession();
 
-			// query to get the emails 
+			// query to get the emails using QueryUtils class
 			// it only gets the ones with the property availability in live
-			Query q = session.getWorkspace().getQueryManager().createQuery("SELECT * FROM [gogreen:Author] WHERE [hippo:availability] LIKE 'live'", Query.JCR_SQL2);
+			QueryUtils qu = new QueryUtils(session);
 
-			QueryResult r = q.execute();
-
-			for (NodeIterator i = r.getNodes(); i.hasNext();) {
-				String email = i.nextNode().getProperty("gogreen:email").getString();
-				// to avoid repeated elements
-				if (!emails.contains(email) && !email.isEmpty()) {
-					emails.add(email);
-				}
-			}
-
-			for (String email : emails) {
-				log.debug("EMAIL: " + email);
-			}
-
-			// comparation of the email typed and the ones in the documents
-			for (String email : emails) {
-				if (value.equals(email)) {
-					violations.add(fieldValidator.newValueViolation(childModel, getTranslation()));
-				}
-			}
+			NodeIterator it = qu.getEmail(value);
+			
+			// in case of not empty, the email typed is not valid
+			if (it.getSize() != 0) {
+				violations.add(fieldValidator.newValueViolation(childModel, getTranslation()));	
+			}			
 
 			return violations;
 
@@ -89,7 +74,5 @@ public class UniqueEmailValidator extends AbstractCmsValidator {
 		}
 
 	}
-	
-	
 
 }

@@ -619,17 +619,16 @@
           gogreen:title: The amazing Razvan
           hippo:availability: []
           hippo:related___pathreference: []
-          hippostd:holder: admin
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-14T10:11:05.615+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-16T11:58:56.987+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>idiot</p>
+            hippostd:content: <p>hello everybodyxx idiot</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -666,13 +665,13 @@
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-14T10:06:09.126+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-16T11:50:42.984+01:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>hellooowiwi</p>
+            hippostd:content: <p>hello everybodyxx idiot</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -709,14 +708,14 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2018-05-01T16:02:37.889+01:00
-          hippostdpubwf:lastModificationDate: 2018-05-14T09:30:13.045+01:00
+          hippostdpubwf:lastModificationDate: 2018-05-16T11:50:42.984+01:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2018-05-14T09:30:19.976+01:00
+          hippostdpubwf:publicationDate: 2018-05-16T12:43:09.018+01:00
           hippotranslation:id: b3de144e-1601-4ae4-8dd3-bb3d3594fc97
           hippotranslation:locale: en
           /gogreen:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>hola</p>
+            hippostd:content: <p>hello everybodyxx idiot</p>
           /gogreen:image:
             jcr:primaryType: hippogallerypicker:imagelink
             hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

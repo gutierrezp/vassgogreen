@@ -3,4 +3,3 @@ definitions:
     /hippo:configuration/hippo:translations/hippo:cms/validators/en:
       email: Please fill in with a valid email address
       unique-email: This email is already in use
-      badwords: Sorry, you can't use bad language.

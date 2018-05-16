@@ -341,7 +341,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-14T16:28:46.427+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-14T16:28:46.427+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-15T11:54:17.021+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 258f29c4-7f90-4ed0-b8fa-b6ccf8295d34
       hippotranslation:locale: en
@@ -366,7 +366,7 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-14T16:28:46.427+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-14T16:29:30.311+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-15T11:54:20.748+01:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 258f29c4-7f90-4ed0-b8fa-b6ccf8295d34
       hippotranslation:locale: en
@@ -391,9 +391,9 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2018-05-14T16:28:46.427+01:00
-      hippostdpubwf:lastModificationDate: 2018-05-14T16:29:30.311+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-15T11:54:20.748+01:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2018-05-14T16:30:54.339+01:00
+      hippostdpubwf:publicationDate: 2018-05-15T11:54:24.028+01:00
       hippotranslation:id: 258f29c4-7f90-4ed0-b8fa-b6ccf8295d34
       hippotranslation:locale: en
       /gogreen:image:
